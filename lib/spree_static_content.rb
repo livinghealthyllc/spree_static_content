@@ -4,7 +4,7 @@ require 'spree_static_content/version'
 require 'coffee_script'
 require 'sass/rails'
 
-module StaticPage
+module SpreeStaticPage
   module_function
 
   def remove_spree_mount_point(path)
